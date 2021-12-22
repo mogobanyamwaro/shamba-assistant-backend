@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import Device_view
+from DeviceAPI import views
 
 urlpatterns = [
-    path('', Device_view.as_view()),
+    path('', views.Device_view),
 ]

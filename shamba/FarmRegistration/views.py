@@ -6,7 +6,7 @@ from .serializers import FarmSerializer
 
 
 @api_view(['GET', 'POST'])
-def Farmer_view(request):
+def Farm_view(request):
     """
     List all device objects, or create a new Device data.
     """

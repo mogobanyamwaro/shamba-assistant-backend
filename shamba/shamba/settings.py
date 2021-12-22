@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'accounts',
+    'DeviceAPI',
+    'FarmRegistration',
+    'FarmerRegistration'
 ]
 
 MIDDLEWARE = [

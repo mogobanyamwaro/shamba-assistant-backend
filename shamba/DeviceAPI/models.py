@@ -7,8 +7,8 @@ class DeviceModel(models.Model):
     phosphorus = models.CharField(max_length=100)
     Nitrogen = models.CharField(max_length=100)
     Moistue = models.TextField(max_length=100)
-    Longitude = models.CharField()
-    Latitude = models.CharField()
+    Longitude = models.CharField(max_length=100)
+    Latitude = models.CharField(max_length=100)
     photo = models.ImageField(upload_to='photos/%Y/%m/%d/')
 
     def __str__(self):

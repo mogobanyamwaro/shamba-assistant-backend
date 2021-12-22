@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import Farm_view
+from FarmRegistration import views
 
 urlpatterns = [
-    path('', Farm_view.as_view()),
+    path('', views.Farm_view),
 ]
